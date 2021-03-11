@@ -1,6 +1,10 @@
 package cs112lectures;
 
 public abstract class Pokemon {
+
+  //This is a comment by Maximus Nie
+  //hopefully this worked
+
   // Can only be accessed by the inherited class
   private String name;
   private String color; 
