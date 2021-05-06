@@ -18,11 +18,11 @@ public class DataPoint {
 		this.isTest=isTest;	
 	}
 	
-	public double getf1Double() {
+	public double getF1Double() {
 		return f1;
 	}
 	
-	public double getf2Double() {
+	public double getF2Double() {
 		return f2;
 	}
 	

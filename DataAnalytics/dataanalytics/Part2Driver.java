@@ -20,7 +20,7 @@ public class Part2Driver {
 		System.out.println(precision);
 
 		System.out.println(accuracy);
-		
+		Graph g = new Graph(3, "C:\\Users\\shyer\\eclipse-workspace\\dataanalytics\\src\\dataanalytics\\titanic.csv");
 		JFrame frame = new JFrame("Predictor");
 	    frame.setVisible(true);
 	    frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
@@ -34,7 +34,7 @@ public class Part2Driver {
         JLabel precisionLabel = new JLabel("Precision: "+ precision);
         panel1.add(precisionLabel);
 	    frame.add(panel1);
-
+	    frame.add(g);
 	}
 
 }

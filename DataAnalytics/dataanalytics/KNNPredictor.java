@@ -23,11 +23,11 @@ public class KNNPredictor extends Predictor {
 		dataPointScanner.nextLine();
 		while (dataPointScanner.hasNext()) {
 			String line = dataPointScanner.nextLine();
-			System.out.println(line);
+			//System.out.println(line);
 			String[] values = line.split(",");
-			System.out.println(values[4]);
+			//System.out.println(values[4]);
 
-			System.out.println(values.length);
+			//System.out.println(values.length);
 			boolean didSurvive = Integer.parseInt(values[1]) > 0;
 			boolean isTest = Math.random() > 0.1;
 			if (!isTest) {
